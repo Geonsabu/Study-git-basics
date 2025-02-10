@@ -1,0 +1,109 @@
+.index{
+    color: blueviolet;
+    left: 40%;
+    top: 25%;
+    position: absolute;
+    font-size: xx-large;
+}
+body{
+    background-color: black;
+}
+span{
+    background: url(https://cdn.vectorstock.com/i/1000x1000/50/18/user-icon-male-person-symbol-profile-avatar-vector-20715018.webp);
+    position: absolute;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+
+}
+.Pro{
+    background-color: azure;
+    color: black;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    left: 38%;
+    top: 36%;
+    position: absolute;
+    font-size: large;
+
+}
+.P{
+    background-color: azure;
+    color: black;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    left: 38%;
+    top: 50%;
+    position: absolute;
+    font-size: large;
+
+}
+.Pr{
+    background-color: azure;
+    color: black;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    left: 38%;
+    top: 43%;
+    position: absolute;
+    font-style: inherit;
+    font-size: large;
+
+}
+.Po{
+    background-color: azure;
+    color: black;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    left: 38%;
+    top: 57%;
+    position: absolute;
+    font-size: large;
+
+}
+footer{
+    color: azure;
+    background-color: black;
+    font-size: medium;
+    position: absolute;
+    margin-top: auto;
+    bottom: 1%;
+    left: 35%;
+
+}
+
+section{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background:blue;
+    left: 0;
+    bottom: 0%;
+    margin-bottom: auto;
+    top: 100%;
+}
+section.wave{
+    position: absloute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(wave.png);
+    background-size: 1000px 100px;
+}
+swection.wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opaacity:1;}
+@keyframes animate1{
+    0%{
+        background-position-x:0;
+    }
+    100%{
+        background-position-x:;
+    }
+}
